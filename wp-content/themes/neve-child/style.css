@@ -6,3 +6,42 @@ Author URI: https://simplon.co
 Template: neve 
 Version: 0.1.0
 */
+
+/* Titre Article et Widget */
+.entry-title a,
+.nv-page-title-wrap.nv-big-title .nv-page-title h1,
+.widget p.widget-title,
+.single-post-container .title {
+	background-color: #0d5348;
+	color: #f0f0f0;
+	text-decoration: none;
+	padding: 1px 8px;
+	transition: color 0.7s;
+}
+
+.entry-title a:hover {
+	color: #a8ffd0;
+	text-decoration: none;
+}
+
+.entry-title a:focus {
+	color: #a8ffd0;
+}
+
+/* Sous-élément */
+.row .primary-menu-ul .sub-menu li {
+	background-color: #68a5b9;
+	border: 1px solid #f0f0f0;
+}
+
+/* Couleur lien menu secondaire */
+@media (max-width: 961px) {
+	.builder-item--secondary-menu #secondary-menu li > a:hover {
+		color: #0d5348;
+	}
+}
+
+/* Couleur fond menu mobile */
+.header-menu-sidebar-bg:before {
+    background-color: #68a5b9;
+}
